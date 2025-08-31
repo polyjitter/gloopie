@@ -1,4 +1,4 @@
-defmodule Bot.Core.ApplicationCommandLoader do
+defmodule Gloopie.Core.ApplicationCommandLoader do
   require Logger
 
   alias Nosedrum.Storage.Dispatcher
@@ -21,7 +21,7 @@ defmodule Bot.Core.ApplicationCommandLoader do
 
   defp is_command?(module_charlist) do
     List.to_string(module_charlist)
-    |> String.starts_with?("Elixir.Bot.Commands")
+    |> String.starts_with?("Elixir.Gloopie.Commands")
   end
 
   # Filter out any module that doesn't implement the ApplicationCommand behaviour

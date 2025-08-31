@@ -1,9 +1,9 @@
-defmodule Bot.MixProject do
+defmodule Gloopie.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :bot,
+      app: :gloopie,
       version: "0.3.0",
       elixir: "~> 1.16",
       start_permanent: Mix.env() == :prod,
@@ -15,7 +15,7 @@ defmodule Bot.MixProject do
   def application do
     [
       extra_applications: [:logger],
-      mod: {Bot.Core.Main, []}
+      mod: {Gloopie.Core.Main, []}
     ]
   end
 

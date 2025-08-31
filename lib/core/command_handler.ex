@@ -1,8 +1,8 @@
-defmodule Bot.Core.CommandHandler do
+defmodule Gloopie.Core.CommandHandler do
   use Nostrum.Consumer
   require Logger
 
-  alias Bot.Core.ApplicationCommandLoader
+  alias Gloopie.Core.ApplicationCommandLoader
   alias Nosedrum.Storage.Dispatcher
 
   # Because we're shifting almost all the work of handling commands off to Nosedrum
