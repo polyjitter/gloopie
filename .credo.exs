@@ -31,7 +31,7 @@
           "apps/*/test/",
           "apps/*/web/"
         ],
-        excluded: [~r"/_build/", ~r"/deps/", ~r"/node_modules/", "**/mix.lock"]
+        excluded: [~r"/_build/", ~r"/deps/", ~r"/node_modules/", ~r"**/mix.lock"]
       },
       #
       # Load and configure plugins here:
