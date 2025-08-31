@@ -22,8 +22,8 @@ defmodule Gloopie.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:nostrum, "~> 0.9.1"},
-      {:nosedrum, git: "https://github.com/jchristgit/nosedrum"}
+      {:nostrum, "~> 0.10.4"},
+      {:nosedrum, github: "polyjitter/nosedrum", branch: "feature/all_app_command_flags"}
     ]
   end
 end

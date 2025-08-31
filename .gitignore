@@ -30,3 +30,6 @@ elixir_bot-*.tar
 
 # Production runtime.exs file
 /config/runtime.exs
+
+# No lock :(
+mix.lock
