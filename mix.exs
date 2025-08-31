@@ -23,7 +23,8 @@ defmodule Gloopie.MixProject do
   defp deps do
     [
       {:nostrum, "~> 0.10.4"},
-      {:nosedrum, github: "polyjitter/nosedrum", branch: "feature/all_app_command_flags"}
+      {:nosedrum, github: "polyjitter/nosedrum", branch: "feature/all_app_command_flags"},
+      {:credo, "~> 1.7", only: [:dev, :test], runtime: false}
     ]
   end
 end
