@@ -10,7 +10,9 @@
             "name": "Run w/ IEX",
             "request": "launch",
             "projectDir": "${workspaceRoot}",
-            "task": "run"
+            "task": "run",
+            "taskArgs": ["--no-halt"],
+            "exitAfterTaskReturns": false
         },
         {
             "type": "mix_task",
