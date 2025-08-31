@@ -30,3 +30,11 @@ elixir_bot-*.tar
 
 # Production runtime.exs file
 /config/runtime.exs
+
+# Production config file
+/config/prod.exs
+
+# Dev secrets
+config/dev.exs
+config/dev.secrets.exs
+config/runtime.dev.secrets.exs

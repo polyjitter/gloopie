@@ -3,7 +3,7 @@ defmodule Gloopie.MixProject do
 
   def project do
     [
-      app: :gloopie,
+      app: :bot,
       version: "0.1.0",
       elixir: "~> 1.18.4",
       start_permanent: Mix.env() == :prod,
@@ -24,7 +24,10 @@ defmodule Gloopie.MixProject do
     [
       {:nostrum, "~> 0.10.4"},
       {:nosedrum, github: "polyjitter/nosedrum", branch: "feature/all_app_command_flags"},
-      {:credo, "~> 1.7", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
+      {:tesla, "~> 1.11"},
+      {:jason, "~> 1.4"},
+      {:mint, "~> 1.0"}
     ]
   end
 end
